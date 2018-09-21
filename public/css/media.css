@@ -1,0 +1,350 @@
+@media (max-width: 1680px) {
+
+}
+
+@media (max-width: 1480px) {
+    .md-footer-section .footer-logo img { max-width: 50%; }
+    .ceo-blockquote p:before { left: 10%; }
+    .image-content-block .content-block { padding: 15px 30px 15px 15px; }
+    .image-content-block h3 { font-size: 30px; line-height: normal; }
+
+    /* ===================================
+        Recruitment process Page
+    ====================================== */
+    .appreciate-section .appreciate-cnt ul{width: 100%;margin-left: 0;padding-left: 65px}
+    .evaluation-blk .evaluation-inner-blk{min-height: 402px;}
+    .appreciate-section .appreciate-cnt p{font-size: 40px;}
+    .singleopening-contact-form p { padding: 0px 250px; }
+    .recruitment-process-outer .recruitment-process ul li { margin-bottom: 40px; position: relative; }
+    .recruitment-process-outer .recruitment-process ul li.application{margin-right: 115px; }
+    .recruitment-process-outer .recruitment-process ul li.tech-review{margin-right: 105px;margin-bottom: 0; top: 25px;}
+    .recruitment-process-outer .recruitment-process ul li.conversation{margin-right: 105px; margin-right: 105px; top: 93px;}
+    .recruitment-process-outer .recruitment-process ul li.evaluation{margin-right: 85px; top: 98px;}
+    .recruitment-process ul li.evaluation span {right: -255px;top: -55px;}
+    .recruitment-process ul li strong {font-size: 22px;line-height: 30px;}
+    .recruitment-process ul li p {font-size: 18px;line-height: 28px;}
+    .recruitment-process-outer .recruitment-process ul{margin: 0;padding: 0;}
+    .recruitment-process-outer .black-bg{ margin-top: 30px;}
+    .recruitment-process-outer .recruitment-process ul li.tech-review span{top: 14px;}
+    #rev_slider_22_1_wrapper{padding-top: 42px !important;}
+    .page-template-template-submit-resumne .static-banner{background-position: center !important;}
+    .evaluation-blk .evaluation-inner-blk h3{font-size: 36px;}
+    .appreciate-section{padding: 100px 0px 60px;}
+    .recruitment-process-outer .recruitment-process ul li.conversation span { top: -20px; }
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .container-fluid { width: 1170px; }
+    h2 { font-size: 50px; line-height: 70px; }
+    h4 { font-size: 25px; }
+    .is_fixed .md-site-header .theme-logo { margin-top: 21px; }
+    .menuBar .navbar-nav li a { font-size: 18px; }
+    .md-site-header .theme-logo { margin-top: 28px; }
+    .home-aboutus .aboutus-title { padding: 40px 70px 60px 0px; background-size: 95%; }
+    .home-aboutus .aboutus-content { padding-left: 45px; }
+    .benefits-section .benefits-box .benefit-hover-content h4 { margin-bottom: 20px; }
+    .benefits-section .benefits-box .benefit-hover-content hr { margin-bottom: 10px; }
+    .benefits-section .benefits-box .benefit-hover-content p { font-size: 20px; line-height: 30px; }
+    .benefits-section .benefits-box .benefit-hover-content { padding: 10px 25px; }
+    .benefits-section .benefits-box figcaption { font-size: 22px; }
+    .counter-section .counter-contet .counter { line-height: 30px; }
+    .blockquote-section .blockquote-content p { font-size: 30px; line-height: 40px; }
+    .opening-section p { padding: 0px 20px; }
+    .opening-section p.apply-anyway { font-size: 30px; line-height: 47px; margin-bottom: 30px; }
+    .opening-section hr { margin: 80px 0px 66px; }
+    .testimonial-section p.setion-text { padding: 0px 20px; }
+    .testimonial-section .testimonial-slider .testimonial-slide p.client-message { font-size: 17px; line-height: 26px; padding-top: 45px;background-position: left 45px;}
+    .testimonial-section .testimonial-slider .testimonial-slide .client-photo { width: 46%; }
+    .testimonial-section .testimonial-slider .testimonial-slide{padding-bottom: 45px;}
+    .md-footer-section { background-position: right 40px bottom -22px; padding-top: 70px; }
+    .md-footer-section .footer-content-box p { margin-bottom: 25px; }
+    .md-footer-section .footer-logo,
+    .md-footer-section ul.social-media-links { margin-bottom: 17px; }
+    .md-footer-section .footer-content { padding-bottom: 70px; }
+    .md-footer-section .footer-copyright .footer-navigation li a { padding-left: 20px; }
+    .md-footer-section .footer-copyright span { font-size: 18px; }
+    .ceo-blockquote p { padding: 0% 13%; }
+    .our-forte-section .our-forte-box { min-height: 389px; }
+    .applynow-blockquote p { font-size: 30px; line-height: 40px; }
+    .applynow-blockquote { padding-top: 80px; padding-bottom: 80px; }
+    .opening-section.current-opening-page hr { margin: 20px 0px 66px; }
+    .opening-section h2 { margin-bottom: 10px; }
+    .gallery-section p { padding: 0px 60px; margin-bottom: 50px; }
+    .submitresume-form-content { width: 1170px; }
+    .home-aboutus { padding: 100px 0px 90px; }
+}
+
+@media (max-width: 1366px) { 
+    .submitresume-form-content .mfp-close { right: 79px; } 
+}
+
+@media (max-width: 1280px) {
+    .home-aboutus .aboutus-title { padding: 60px 40px 60px 0px; background-size: contain; }
+    .ceo-blockquote p { font-size: 30px; line-height: 40px;}
+    .ceo-blockquote p:before { top: 5px; }
+    .image-content-block h3 { margin-bottom: 10px; }
+    .our-forte-section .our-forte-box { padding: 43px 30px 41px 30px; }
+    .singleopening-contact-form p { padding: 0px 140px; }
+    .submitresume-form-content .mfp-close { right: 35px; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .slick-prev.slick-arrow { left: -31px; }
+    .slick-next.slick-arrow { right: -31px; }
+    .back-to-top { height: 40px; width: 40px; line-height: 40px; }
+    .md-footer-section { background-position: right 40px bottom 56px;}
+}
+
+@media (max-width: 1199px) {
+    h2 { font-size: 40px; line-height: 60px; }
+    h3 { font-size: 30px; line-height: normal; }
+    h4 { font-size: 22px; }
+    .submitresume-form-content .mfp-close { right: 0px; }
+    .btn { font-size: 16px;padding: 16px 28px; }
+    .menuBar .navbar-nav li a { font-size: 16px; padding: 0 11px;}
+    .menuBar { padding: 34px 0px 38px; }
+    .md-footer-section { background-position: right 10px bottom 178px; }
+    .md-footer-section .footer-copyright { text-align: center; }
+    .md-footer-section .footer-copyright .footer-navigation { float: none; margin-top: 15px; }
+    .home-aboutus { padding: 100px 0; }
+    .home-aboutus .aboutus-title { padding: 30px 40px 30px 0px; background-size: 86%; }
+    .home-aboutus .aboutus-content { padding-left: 30px; }
+    .home-aboutus .aboutus-content p { font-size: 18px; line-height: 35px; margin-bottom: 20px;}
+    .benefits-section .benefits-box figcaption { font-size: 20px; }
+    .benefits-section .benefits-box .benefit-hover-content p { font-size: 18px; line-height: 30px; }
+    .benefits-section .benefits-box .benefit-hover-content h4 { margin-bottom: 15px; }
+    .benefits-section .benefits-box .benefit-hover-content hr { margin: 0px auto 12px; }
+    .blockquote-section .blockquote-content p { line-height: 50px; font-size: 30px; }
+    .blockquote-section .blockquote-content { padding: 40px 20px 40px; margin-left: 0; }
+    .opening-section hr { margin: 50px 0px; }
+    .opening-section p { padding: 0% 12%; }
+    .testimonial-section p.setion-text { padding: 0px 30px; }
+    .testimonial-section { padding-bottom: 100px;}
+    .testimonial-section .glasdoor-image { padding: 25px 75px; bottom: -55px; width: 780px;}
+    .gallery-section p{ padding: 0px 20px; margin-bottom: 30px; }
+    .image-content-block .row { display: block; margin: 0; }
+    .image-content-block .image-block { text-align: center; }
+    .image-content-block .content-block { padding: 30px; }
+    .our-forte-section .our-forte-box { padding: 23px 10px 21px 10px; min-height: 329px; }
+    .our-forte-section .our-forte-box .forte-icon { margin-top: 0px; }
+    .opening-section .opening-box-layout .opening-slide { padding: 41px 20px 39px; }
+    .opening-section h2 { margin-bottom: 15px; }
+    .opening-section .opening-box-layout { margin-bottom: 0px; }
+    .jobprofile-skills-section .list-of-requirements { margin-top: 70px; }
+    .jobprofile-skills-section .list-of-requirements { padding: 25px 20px 20px; }
+
+    /* ===================================
+    Recruitment process Page
+    ====================================== */
+    .evaluation-blk .evaluation-inner-blk{padding: 20px;}
+    .appreciate-section .appreciate-cnt p{font-size: 35px;}
+    .appreciate-section .appreciate-cnt ul{margin-top: 10px;}
+    .appreciate-section .appreciate-cnt ul li {font-size: 22px;}
+    .intro-content p { padding: 0px 20px; }
+    .contact-form-block form input[type="text"], 
+    .contact-form-block form input[type="email"], 
+    .contact-form-block form input[type="url"], 
+    .contact-form-block form input[type="file"], 
+    .contact-form-block form input[type="tel"], 
+    .contact-form-block form select { height: 55px; }
+    .contact-form-block form textarea { height: 150px; }
+    .singleopening-contact-form p { padding: 0px 15px; }
+    .recruitment-process-outer .black-bg{ padding: 27px 100px 18px; }
+    .evaluation-blk .evaluation-inner-blk { min-height: 350px; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .container-fluid { width: 100%; }
+    .is_fixed .md-site-header .theme-logo { margin-top: 25px; }
+    .testimonial-section .testimonial-slider .testimonial-slide .client-photo { width: 24%; }
+    .testimonial-section .testimonial-slider .testimonial-slide p.client-message { background-size: 12%; font-size: 20px; padding-right: 33%; max-height: 100%; min-height: auto; }
+    .counter-section { padding: 100px 0px; }
+    .opening-section .opening-box-layout .opening-slide a.opening-name { font-size: 22px; }
+    .singleopening-contact-form .contact-form-block { padding: 70px 35px 70px; }
+
+    .submitresume-form-content { width: 100%; }
+    /* ===================================
+        Recruitment process Page
+    ====================================== */
+    .recruitment-process-outer .recruitment-process .right-image-part{display: block;width: 365px;height: 364px;margin: 0 auto 50px;position: relative;border-radius: 100%;overflow: hidden;}
+    .recruitment-process-outer .recruitment-process .right-image-part img{margin-top:0;position: absolute;left: -197px;top: -113px;max-width: inherit;}
+    .recruitment-process-outer .recruitment-process .left-content-part{float: none;width: auto;text-align: left;}
+    .recruitment-process-outer .recruitment-process ul {padding: 0;counter-reset: my-sec-counter;}
+    .recruitment-process-outer .recruitment-process ul li{padding: 0 0 0 200px;margin-bottom: 50px !important;margin-right: 0 !important;}
+    .recruitment-process-outer .recruitment-process ul li span {left: 0 !important;background-size: 90px;height: 90px; width: 90px;top: 0 !important;}
+    .recruitment-process ul li p {margin-right: 0 !important;margin-bottom: 0;}
+    .recruitment-process-outer .recruitment-process ul li.tech-review span {background-position: 0 -126px;}
+    .recruitment-process-outer .recruitment-process ul li.conversation span {background-position: 0 -269px;}
+    .recruitment-process ul li.evaluation span {background-position: 0 -390px;}
+    .recruitment-process ul li strong {position: relative;}
+    .recruitment-process ul li strong:before {counter-increment: my-sec-counter;content: " " counter(my-sec-counter) " ";color: #fff;border-radius: 100%;width: 45px;height: 44px;display: inline-block;text-align: center;vertical-align: middle;line-height: 36px;font-size: 22px;border: 5px solid #f9f9f9;-webkit-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.09);-moz-box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.09);box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.09);left: -60px;position: absolute;top: 0px;}
+    .recruitment-process ul li.application strong:before {background-color: #f5b721;}
+    .recruitment-process ul li.tech-review strong:before {background-color: #4cb5ab;}
+    .recruitment-process ul li.conversation strong:before {background-color: #ff8a65;}
+    .recruitment-process ul li.evaluation strong:before {background-color: #0e6ecc;}
+    .recruitment-process-outer .black-bg { width: 100%; }
+    .recruitment-process-outer .recruitment-process ul li.tech-review,
+    .recruitment-process-outer .recruitment-process ul li.conversation,
+    .recruitment-process-outer .recruitment-process ul li.evaluation { top: 0; }
+
+    .home-gallery p { padding: 0px 20px; }
+
+    #lifeatmd-video { height: 350px !important; }
+
+    .applynow-blockquote p { padding: 0% 13%; }
+    .submit_resume_banner.singleopening-page-banner .md-color-overlay { padding: 119px 0px 110px; }
+}
+
+@media (max-width: 991px) {
+    .menuBar {padding: 28px 0px 32px;}
+    .menuBar .navbar-nav li a { font-size: 12px; padding: 0 10px;}
+    .header-top-contact ul.left-list li .divider { padding: 0px 8px; }
+    .header-top-contact ul.right-list li .social-links a,
+    .header-top-contact ul.right-list li a { padding-left: 25px;}
+    .home-aboutus .row { display: block; text-align: center; }
+    .home-aboutus .aboutus-title { background-image: none; text-align: center; padding: 15px; }
+    .home-aboutus .aboutus-content {padding-left: 0; }
+    .home-aboutus { padding: 70px 0; }
+    .counter-section { padding: 70px 0px; }
+    .counter-block { text-align: center; }
+    .counter-section .counter-block .counter-icon { display: block; float: none; margin-bottom: 15px; }
+    .counter-section .counter-contet {display: block; padding-left: 0; }
+    .counter-section .counter-contet hr { margin: auto; }
+    .opening-section { padding-bottom: 70px; }
+    .opening-section p.apply-anyway { padding: 0% 2%; }
+    .gallery-section { padding: 50px 0; }
+    .ceo-blockquote p { padding: 0% 3%; }
+    .ceo-blockquote p:before { left: 0; }
+    .our-forte-section { padding: 50px 0px; }
+    .our-forte-section h2 { margin-bottom: 0; }
+    .our-forte-section p { margin-bottom: 20px; }
+    .our-forte-section .our-forte-box { min-height: auto; }
+    .our-forte-section .our-forte-box { padding: 23px 20px 21px 20px; }
+    .jobprofile-skills-section .list-of-requirements { margin-top: 70px; }
+
+    /* ===================================
+    Recruitment process Page
+    ====================================== */
+    .evaluation-blk .evaluation-inner-blk {min-height: auto; }
+    .ques-ans-section .question-blk{padding: 20px 10px 20px 50px;}
+    .appreciate-section .img-block{text-align: center;}
+    .appreciate-section .appreciate-cnt{margin-left: 0px;}
+    .ques-ans-section .question-blk h5{margin-bottom: 15px;font-size: 20px;}
+    .ques-ans-section .question-blk p,.evaluation-blk .evaluation-inner-blk p{font-size: 16px;}
+    .evaluation-section .evaluation-overlay,.ques-ans-section,.appreciate-section{padding: 50px 0px;}
+    .singleopening-contact-form .contact-form-block { padding: 40px 0 70px; }
+    .recruitment-process-outer .black-bg{ padding: 27px 40px 18px; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .opening-section .opening-slider .opening-slide { padding: 41px 30px 39px; }
+    .testimonial-section .testimonial-slider .testimonial-slide .client-photo { width: 27%; }
+    .home-gallery { padding-top: 100px; padding-bottom: 80px; }
+    .ceo-blockquote { padding-top: 70px; padding-bottom: 65px; }
+    .md-footer-section { background-position: right 10px bottom 100px; }
+    .testimonial-section .testimonial-slider .testimonial-slide p.client-message { background-size: 20%; padding-right: 30%;}
+    .testimonial-section .glasdoor-image { width: 90%;}
+    .applynow-blockquote p { padding: 0% 3%; }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle { z-index: 6; top: -49px; right: 15px; }
+    .collapsing { -webkit-transition: none; transition: none; -webkit-transition-delay: 0s; transition-delay: 0s; }
+    .md-logo-navbar { padding-bottom: 30px; }
+    .menuBar { padding: 0px; width: 100%; float: left; position: absolute; top: 0px;/* right: 15px;*/ }
+    .menuBar nav .navbar-collapse {-webkit-box-shadow: none; box-shadow: none; position: absolute; width: 70%; height: 100vh !important; background: rgba(0, 0, 0, 0.9); top: 0; right: -700px; text-align: center; opacity: 1; visibility: visible; transition: 0.3s all linear; -webkit-transition: 0.3s all linear; -webkit-transition-delay: 0s; transition-delay: 0s; overflow: auto;}
+    .menuBar nav .navbar-collapse.in { right: 0; }
+    .menuBar .navbar-nav li { display: block; padding: 0; margin-bottom: 20px; }
+    .menuBar .navbar-nav li a { padding: 0; font-size: 26px; font-weight: 600; display: table; margin: 0 auto; line-height: normal; color: #FFF; }
+    .menuBar .navbar-nav { margin: 0; width: 100%; position: absolute; top: 50px; bottom: 0; left: 0; right: 0; padding: 0px 10px; }
+    .md-site-header .col-xs-12.md-main-menu { padding-left: 0; }
+    .md-site-header .theme-logo { margin-top: 0; padding: 10px 0px; }
+    .header-top-contact ul { text-align: center; }
+    .header-top-contact ul.right-list { float: none; }
+    .header-top-contact ul.left-list { margin-bottom: 15px; }
+    .md-footer-section { background-image: none; }
+    .md-footer-section .footer-mail-link { font-size: 22px; }
+    .counter-block { margin-bottom: 30px !important; }
+    .counter-section { padding: 70px 0px 40px; }
+    .testimonial-section {padding-bottom: 70px; }
+    .testimonial-section .testimonial-slider .testimonial-slide .client-photo { display: none; }
+    .testimonial-section .testimonial-slider .testimonial-slide { padding-right: 30px; padding-left: 30px; }
+    .testimonial-section .glasdoor-image {display: block; padding: 10px; bottom: -35px; left: 10px; -webkit-transform: none; transform: none; right: 10px; }
+    .applynow-blockquote { padding: 60px 0px; }
+    .applynow-blockquote p { font-size: 24px; line-height: 35px; margin-bottom: 25px }
+    .ceo-blockquote p { font-size: 24px; line-height: 35px; }
+    .ceo-blockquote p:before { display: none; }
+    .ceo-blockquote .writer-name { line-height: normal; }
+    .jobprofile-skills-section .list-of-requirements { padding: 35px 20px 30px; }
+
+    /* ===================================
+    Recruitment process Page
+    ====================================== */
+    .evaluation-section .evaluation-blk{display: inline-block;}
+    .appreciate-section .appreciate-cnt p{font-size: 24px;}
+    .appreciate-section .appreciate-cnt ul li{font-size: 18px;}
+    .ques-ans-section .question-blk {padding: 20px 10px 20px 40px; }
+    .recruitment-process-outer .recruitment-process {padding: 30px 30px 0  30px;}
+    .singleopening-contact-form { padding-top: 70px; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .is_fixed .md-site-header .logo-navbar { position: absolute; }
+    .testimonial-section .testimonial-slider .testimonial-slide p.client-message { padding-right: 0%; }
+}
+
+@media (max-width: 560px) {
+    .grid-sizer { width: 50%; }
+    .gallery-item { width: 50%; }
+
+    /* ===================================
+    Recruitment process Page
+    ====================================== */
+    .recruitment-process-outer .recruitment-process {padding: 30px 20px 0 20px;}
+    .recruitment-process-outer .recruitment-process .right-image-part {width: 240px;height: 240px;}
+    .recruitment-process-outer .recruitment-process .right-image-part img {left: -121px;top: -68px;max-width: 354px;}
+    .recruitment-process-outer .recruitment-process h2 {margin-bottom: 40px;}
+    .recruitment-process-outer .recruitment-process ul li span {display: none;}
+    .recruitment-process-outer .recruitment-process ul li {padding: 0 0 0 60px;margin-bottom: 25px;}
+    .recruitment-process ul li strong:before {line-height: 30px;font-size: 19px;border-width: 3px;width: 35px;height: 35px;}
+    .recruitment-process ul li strong {font-size: 20px;line-height: 24px;margin-bottom: 10px;display: block;}
+    .recruitment-process ul li p {font-size: 18px;line-height: 22px;}
+    .recruitment-process-outer .black-bg {padding: 20px 15px;}
+    .recruitment-process-outer .black-bg p {font-size: 18px;line-height: 28px;}
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+    .header-top-contact ul li span, .header-top-contact ul li a{font-size: 12px;}
+    .header-top-contact ul.left-list li .divider{padding: 0px 2px;}
+    .appreciate-section .appreciate-cnt ul{padding-left: 25px;}
+    .md-footer-section .footer-copyright .footer-navigation{text-align: center;display: inline-block;width: 100%;}
+    .md-footer-section .footer-copyright .footer-navigation li a{padding-right: 20px;padding-left: 0;}
+    .gallery-image-video iframe {height: 280px;}
+}
+
+@media (max-width: 480px) {
+    .md-site-header .theme-logo { padding: 20px 0px; }
+    .navbar-toggle { top: -43px; }
+    .benefits-section .benefits-box.col-xs-6 { width: 100%; }
+    .blockquote-section .blockquote-content p { line-height: 40px; font-size: 24px; }
+    .testimonial-section {padding-bottom: 50px; }
+    .testimonial-section .glasdoor-image { bottom: -25px; }
+    .testimonial-section .testimonial-slider .testimonial-slide { padding-right: 20px; padding-left: 20px; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+}
+
+@media screen and (max-width: 360px) {
+    .home-gallery .col-xs-6 { width: 100%; }
+
+    /* ===================================
+       Design After container change
+    ====================================== */
+}

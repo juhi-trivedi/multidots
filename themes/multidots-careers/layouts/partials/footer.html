@@ -1,0 +1,88 @@
+        {{ "<!-- footer section end -->" | safeHTML }}        
+        <footer id="footer" class="md-footer-section">
+                <div class="container-fluid wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="footer-content">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <div class="footer-content-box">
+                                    <div class="footer-logo">
+                                        <img height="95" width="300" src="{{ .Site.Params.logo | absURL }}" alt="Logo">
+                                    </div>
+                                    {{ with .Site.Params.footerdescription }} <p>{{ . }}</p>{{ end }}
+                                    <span>Love being Social? <span class="inside-span">Follow us.</span></span>
+                                    <ul class="social-media-links">
+                                        <li class="facebook-link">
+                                             {{- if isset .Site.Params "facebook" }}
+                                            <a href="{{ .Site.Params.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            {{- end }}
+                                        </li>                            
+                                            <li class="twitter-link">
+                                                {{- if isset .Site.Params "twitter" }}
+                                                <a href="{{ .Site.Params.twitter }}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                                {{- end }}
+                                        </li>                            
+                                            <li class="linkedin-link">
+                                                {{- if isset .Site.Params "linkedin" }}
+                                                <a href="{{ .Site.Params.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                                {{- end }}
+                                        </li>                            
+                                            <li class="instagram-link">
+                                                {{- if isset .Site.Params "instagram" }}
+                                                <a href="{{ .Site.Params.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                                {{- end }}
+                                        </li>                        
+                                    </ul>
+                                    {{- if isset .Site.Params "email" }}
+                                    <a class="footer-mail-link" href="mailto:{{ .Site.Params.email }}?subject=Hi">
+                                        {{ .Site.Params.email }}
+                                    </a>
+                                    {{- end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                                <span>{{ .Site.Params.copyright }}</span>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                                <div class="menu-career-container">
+                                    <ul id="footer" class="footer-navigation">
+                                        <li class="menu-item menu-item-type-post_type"> <a href="{{ .Site.BaseURL }}">{{ with .Site.Params.home }}{{ . }}{{ end }}</a> </li>
+                                        {{ range .Site.Menus.nav }}
+                                        <li class="menu-item menu-item-type-post_type">
+                                            <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                                        </li>
+                                        {{ end }}
+                                    </ul>
+                                </div>                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+                    
+        </div>
+        {{ "<!-- footer section end -->" | safeHTML }}
+        
+        {{ "<!-- jquery -->" | safeHTML }}
+        <script src="{{ "plugins/jQurey/jquery.min.js" | absURL }}"></script>
+        {{ "<!-- jquery -->" | safeHTML }}
+        <script src="{{ "plugins/magnific-popup/jquery.magnific-popup.js" | absURL }}"></script>
+        {{ "<!-- counterup -->" | safeHTML }}
+        <script src="{{ "plugins/counterup/jquery.waypoints.min.js" | absURL }}"></script>
+        <script src="{{ "plugins/counterup/jquery.counterup.js" | absURL }}"></script>
+        {{ "<!-- slick -->" | safeHTML }}
+        <script src="{{ "plugins/slick/slick.js" | absURL }}"></script>
+        {{ "<!-- isotope -->" | safeHTML }}
+        <script src="{{ "plugins/isotope/jquery.isotope.min.js" | absURL }}"></script>
+        {{ "<!-- Wow -->" | safeHTML }}
+        <script src="{{ "plugins/animate-css/wow.min.js" | absURL }}"></script>
+        {{ "<!-- template main js -->" | safeHTML }}
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="{{ "js/public.js" | absURL }}"></script>
+    </body>
+</html>

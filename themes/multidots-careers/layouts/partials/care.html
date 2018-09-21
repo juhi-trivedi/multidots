@@ -1,0 +1,9 @@
+{{ if .Site.Params.care.enable }}
+{{ "<!-- How We Care Section Start -->" | safeHTML }}
+<section class="benefits-section">
+    <div class="container-full">
+        <h2>{{ .Site.Params.care.title }}</h2>
+    </div>
+</section>
+{{ "<!-- How We Care Section End -->" | safeHTML }}
+{{ end }}

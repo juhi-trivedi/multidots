@@ -1,0 +1,55 @@
+{{ if .Site.Params.counter.enable }}
+{{ "<!-- counter Section Start -->" | safeHTML }}
+<section class="counter-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow slideInUp" data-wow-delay="0.1s">
+                <div class="counter-block">
+                    <div class="counter-icon">
+                        <img src="{{ .Site.Params.counter.icon }}" alt="Image"></div>
+                    <div class="counter-contet">
+                        <h2 class="counter">{{ .Site.Params.counter.value }}</h2>
+                        <span class="counter-name">{{ .Site.Params.counter.title }}</span>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow slideInUp" data-wow-delay="0.2s">
+                <div class="counter-block">
+                    <div class="counter-icon">
+                        <img src="{{ .Site.Params.counter.icon }}" alt="Image"></div>
+                    <div class="counter-contet">
+                        <h2 class="counter">{{ .Site.Params.counter.value }}</h2>
+                        <span class="counter-name">{{ .Site.Params.counter.title }}</span>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow slideInUp" data-wow-delay="0.3s">
+                <div class="counter-block">
+                    <div class="counter-icon">
+                        <img src="{{ .Site.Params.counter.icon }}" alt="Image"></div>
+                    <div class="counter-contet">
+                        <h2 class="counter">{{ .Site.Params.counter.value }}</h2>
+                        <span class="counter-name">{{ .Site.Params.counter.title }}</span>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow slideInUp" data-wow-delay="0.4s">
+                <div class="counter-block">
+                    <div class="counter-icon">
+                        <img src="{{ .Site.Params.counter.icon }}" alt="Image"></div>
+                    <div class="counter-contet">
+                        <h2 class="counter">{{ .Site.Params.counter.value }}</h2>
+                        <span class="counter-name">{{ .Site.Params.counter.title }}</span>
+                        <hr />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ "<!-- counter Section End -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,22 @@
+{{ if .Site.Params.aboutus.enable }}
+{{ "<!-- About us Section Start -->" | safeHTML }}
+<section class="home-aboutus" style="position:relative;">
+    <div id="particles-js" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 wow slideInLeftSmooth" data-wow-delay="0.1s">
+                <div class="aboutus-title">
+                    <h2>{{ .Site.Params.aboutus.title }}</h2>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 wow slideInRightSmooth" data-wow-delay="0.1s">  
+                <div class="aboutus-content">
+                    <p>{{ .Site.Params.aboutus.content }}</p>
+                    <a href="{{ .Site.Params.aboutus.btnURL }}" class="btn btn-default btn-contact wow fadeInDown" data-wow-delay=".7s" data-wow-duration="500ms">{{ .Site.Params.aboutus.btnText }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    
+{{ "<!-- About us Section End -->" | safeHTML }}
+{{ end }}

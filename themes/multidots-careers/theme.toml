@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Multidots Careers"
+license = "MIT"
+licenselink = "https://github.com/juhi-trivedi/multidots-careers/blob/master/LICENSE"
+description = "A Career Website made for Multidots using Hugo, Netlify & JAMStack"
+homepage = "/"
+tags = [career, multidots]
+features = [blogs, career, team]
+min_version = "0.41"
+
+[author]
+  name = "Juhi Trivedi"
+  homepage = "/"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
